@@ -108,6 +108,32 @@ const Index = () => {
         />
       )}
 
+      {/* Opening Hours Section */}
+      <section className="px-6 py-16 max-w-7xl mx-auto">
+        <div className="max-w-2xl mx-auto bg-card rounded-2xl shadow-[var(--shadow-card)] p-8 md:p-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+            开放时间
+          </h2>
+          <div className="space-y-4 text-foreground/80">
+            <div className="flex justify-between items-center py-3 border-b border-border">
+              <span className="font-medium">周二至周五</span>
+              <span className="text-muted-foreground">10:00 - 18:00</span>
+            </div>
+            <div className="flex justify-between items-center py-3 border-b border-border">
+              <span className="font-medium">周六至周日</span>
+              <span className="text-muted-foreground">09:00 - 20:00</span>
+            </div>
+            <div className="flex justify-between items-center py-3">
+              <span className="font-medium">周一</span>
+              <span className="text-muted-foreground">闭馆</span>
+            </div>
+          </div>
+          <p className="mt-6 text-sm text-muted-foreground">
+            * 最后入场时间为闭馆前 30 分钟
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-border py-12 px-6">
         <div className="max-w-7xl mx-auto text-center">
