@@ -11,31 +11,5 @@
   "userID": "2b12baa0aecc1091f0611be2b39dc5be6c3d65ac610e264b2ccfccf67a9cff7d",
   "firstStartTime": "2025-12-10T03:07:25.903Z",
   "sonnet45MigrationComplete": true,
-  "opus45MigrationComplete": true,
-  "githubRepoPaths": {
-    "wordixai/6878a445-7040-48c0-a23a-e0eb31a5a6a0": [
-      "/app"
-    ]
-  },
-  "projects": {
-    "/app": {
-      "allowedTools": [],
-      "mcpContextUris": [],
-      "mcpServers": {},
-      "enabledMcpjsonServers": [],
-      "disabledMcpjsonServers": [],
-      "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 0,
-      "hasClaudeMdExternalIncludesApproved": false,
-      "hasClaudeMdExternalIncludesWarningShown": false,
-      "exampleFiles": [
-        "src/index.css",
-        "src/pages/Index.tsx",
-        "tailwind.config.ts",
-        "",
-        "I can only identify 3 files from the provided data, all with a modification count of 1. To return exactly five filenames representing core application logic as requested, I would need a more comprehensive git history with additional files that have been modified multiple times and show evidence of being core application logic rather than configuration files."
-      ],
-      "exampleFilesGeneratedAt": 1765346674430
-    }
-  }
+  "opus45MigrationComplete": true
 }
