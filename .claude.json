@@ -11,31 +11,5 @@
   "userID": "2b12baa0aecc1091f0611be2b39dc5be6c3d65ac610e264b2ccfccf67a9cff7d",
   "firstStartTime": "2025-12-10T03:07:25.903Z",
   "sonnet45MigrationComplete": true,
-  "opus45MigrationComplete": true,
-  "githubRepoPaths": {
-    "wordixai/6878a445-7040-48c0-a23a-e0eb31a5a6a0": [
-      "/app"
-    ]
-  },
-  "projects": {
-    "/app": {
-      "allowedTools": [],
-      "mcpContextUris": [],
-      "mcpServers": {},
-      "enabledMcpjsonServers": [],
-      "disabledMcpjsonServers": [],
-      "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 0,
-      "hasClaudeMdExternalIncludesApproved": false,
-      "hasClaudeMdExternalIncludesWarningShown": false,
-      "exampleFiles": [
-        "Index.tsx",
-        "index.css",
-        "tailwind.config.ts",
-        "pnpm-lock.yaml",
-        ".claude.json"
-      ],
-      "exampleFilesGeneratedAt": 1765348441329
-    }
-  }
+  "opus45MigrationComplete": true
 }
