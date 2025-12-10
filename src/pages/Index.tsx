@@ -68,13 +68,16 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <header className="px-6 py-20 md:py-32 max-w-7xl mx-auto">
-        <div className="max-w-3xl animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 tracking-tight">
+      <header className="px-6 pt-32 pb-20 md:pt-40 md:pb-28 max-w-7xl mx-auto">
+        <div className="max-w-2xl animate-fade-in">
+          <div className="mb-6 text-xs tracking-[0.3em] uppercase text-muted-foreground font-light">
+            Contemporary Art Collection
+          </div>
+          <h1 className="text-6xl md:text-8xl font-light text-foreground mb-8 tracking-tight leading-[0.95]">
             艺术画廊
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            探索当代艺术家的精选作品，感受色彩、形态与情感的交融。每一幅作品都是创作者内心世界的独特表达。
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light max-w-xl">
+            探索当代艺术的精粹
           </p>
         </div>
       </header>
